@@ -23,7 +23,22 @@ class Connexion
         }
     }
 
+    public void connecteMysql(){
+        string connectionString = "Server=localhost;Database=c;Uid=root;Pwd=;";
+        MySqlConnection connection = new MySqlConnection(connectionString);
+                try{
+            connection.Open();
+
+        }        catch (Exception ex){
+            Console.WriteLine("Erreur de connexion à la base de données: " + ex.Message);
+        }
+    }
+
     public void traitementNote(){
+        
+    }
+
+    public void manomeNote(){
 
     }
 }
