@@ -16,6 +16,8 @@
     <PackageReference Include="MySql.Data" Version="8.0.28" />
     <Compile Include="../c.cs" />
     <Compile Include="../f.cs"/>
+    <Compile Include="../Nify.cs"/>
+    <Compile Include="../NifyIray.cs"/>
   </ItemGroup>
 
 </Project>
